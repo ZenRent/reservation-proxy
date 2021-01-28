@@ -1,0 +1,25 @@
+{
+  "name": "reservation-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for ZenRent modules. Assembled by the reservation module creator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZenRent/reservation-proxy.git"
+  },
+  "author": "Errol Cleary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZenRent/reservation-proxy/issues"
+  },
+  "homepage": "https://github.com/ZenRent/reservation-proxy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.6"
+  }
+}
