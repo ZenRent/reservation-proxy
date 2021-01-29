@@ -3,12 +3,22 @@
   <head>
     <meta charset="utf8">
     <title>ZenRent</title>
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <div id="Gallery"></div>
-    <div id="portal-root"></div>
-    <div id="portal-save"></div>
-    <div id="Reservation"></div>
+    <div class="proxy-global-galleryContainer">
+      <div id="Gallery"></div>
+      <div id="portal-root"></div>
+      <div id="portal-save"></div>
+    </div>
+    <div class="proxy-global-listingDetailAndReservationOuterContainer">
+      <div class="proxy-global-listingDetailAndReservationInnerContainer">
+        <div class="proxy-global-listingDetailContainer">
+          <img src="listingDetail.png" class="proxy-global-listingDetail"/>
+        </div>
+        <div class="proxy-global-reservationContainer" id="Reservation"></div>
+      </div>
+    </div>
     <div id="Reviews"></div>
     <div id="MorePlaces"></div>
     <script type="text/javascript" src="http://localhost:3001/bundle.js"></script>

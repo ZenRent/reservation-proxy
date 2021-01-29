@@ -1,8 +1,8 @@
 {
   "name": "reservation-proxy",
   "version": "1.0.0",
-  "description": "Proxy server for ZenRent modules. Assembled by the reservation module creator.",
-  "main": "index.js",
+  "description": "Proxy server for ZenRent application services. Assembled by the reservation service creator.",
+  "main": "server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server"
