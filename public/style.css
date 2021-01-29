@@ -1,0 +1,32 @@
+.proxy-global-galleryContainer {
+  width: 100%;
+  height: 630px;
+}
+
+.proxy-global-listingDetailAndReservationOuterContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.proxy-global-listingDetailAndReservationInnerContainer {
+  width: 1000px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.proxy-global-listingDetailContainer {
+  display: inline-block;
+}
+
+.proxy-global-reservationContainer {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.proxy-global-listingDetail {
+  height: 1730px;
+  width: 630px;
+}
