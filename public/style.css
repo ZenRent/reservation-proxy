@@ -31,3 +31,26 @@
   height: 1730px;
   width: 630px;
 }
+
+.proxy-global-locationHostThingsContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.proxy-global-locationHostThings {
+  width: 1012px;
+  height: 1531px;
+}
+
+.proxy-global-thingsExploreFooterContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.proxy-global-thingsExploreFooter {
+  width: 1012px;
+  height: 1167px;
+}
